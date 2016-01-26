@@ -49,7 +49,7 @@ public class AmazonTests {
 	    
 	    //Successful Sign in
 	    driver.findElement(By.id("ap_password")).clear();
-	    driver.findElement(By.id("ap_password")).sendKeys("5april2004");
+	    driver.findElement(By.id("ap_password")).sendKeys("5april");
 	    driver.findElement(By.id("signInSubmit")).click();
 	    assertEquals("Online Shopping: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in", driver.getTitle());
 	    try {
